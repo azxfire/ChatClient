@@ -15,6 +15,8 @@
 		BB56D4071B4F82B600698083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB56D4051B4F82B600698083 /* LaunchScreen.storyboard */; };
 		BB56D4121B4F82B600698083 /* ChatClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56D4111B4F82B600698083 /* ChatClientTests.m */; };
 		BB56D41D1B4F82B600698083 /* ChatClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56D41C1B4F82B600698083 /* ChatClientUITests.m */; };
+		BB56D42A1B4FB7C300698083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56D3FE1B4F82B600698083 /* ViewController.m */; };
+		BB56D42D1B4FBFE500698083 /* server.py in Resources */ = {isa = PBXBuildFile; fileRef = BB56D42C1B4FBFE500698083 /* server.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		BB56D4181B4F82B600698083 /* ChatClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB56D41C1B4F82B600698083 /* ChatClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatClientUITests.m; sourceTree = "<group>"; };
 		BB56D41E1B4F82B600698083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB56D42C1B4FBFE500698083 /* server.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = server.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		BB56D3F61B4F82B600698083 /* ChatClient */ = {
 			isa = PBXGroup;
 			children = (
+				BB56D42B1B4FBFD800698083 /* Server */,
 				BB56D3FA1B4F82B600698083 /* AppDelegate.h */,
 				BB56D3FB1B4F82B600698083 /* AppDelegate.m */,
 				BB56D3FD1B4F82B600698083 /* ViewController.h */,
@@ -138,6 +142,14 @@
 				BB56D41E1B4F82B600698083 /* Info.plist */,
 			);
 			path = ChatClientUITests;
+			sourceTree = "<group>";
+		};
+		BB56D42B1B4FBFD800698083 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				BB56D42C1B4FBFE500698083 /* server.py */,
+			);
+			name = Server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +258,7 @@
 				BB56D4071B4F82B600698083 /* LaunchScreen.storyboard in Resources */,
 				BB56D4041B4F82B600698083 /* Assets.xcassets in Resources */,
 				BB56D4021B4F82B600698083 /* Main.storyboard in Resources */,
+				BB56D42D1B4FBFE500698083 /* server.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB56D42A1B4FB7C300698083 /* ViewController.m in Sources */,
 				BB56D4121B4F82B600698083 /* ChatClientTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
